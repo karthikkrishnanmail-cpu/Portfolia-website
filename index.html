@@ -1,0 +1,1430 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karthik Krishnan | Elite Photoshop Image Editor & Color Correction Specialist (10+ Yrs)</title>
+  <meta name="description" content="Official portfolio of Karthik Krishnan — 10+ years expert in Photoshop with AI, high-end photo retouching, apparel color matching, fashion e-commerce image manipulation, HTML5/CSS, and UI design." />
+  <meta name="keywords" content="Karthik Krishnan, Photoshop Image Editor, Color Correction Specialist, Photo Retouching, Photoshop with AI, Eshakti Image Editor, E-Commerce Photo Editing, Fashion Apparel Color Matching, HTML 5, CSS 3, UI Designer, Audacity Audio Editor" />
+  <meta name="author" content="Karthik Krishnan" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Karthik Krishnan | Elite Photoshop Image Editor & Color Correction Specialist" />
+  <meta property="og:description" content="10+ years expertise in Adobe Photoshop, color correction, skin retouching, e-commerce catalog QC, and creative UI design." />
+  <meta property="og:image" content="https://karthikkrishnan.design/og-image.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="Karthik Krishnan Portfolio" />
+  <meta property="twitter:description" content="High-Precision Photo Editing & Color Correction by Karthik Krishnan (10+ Yrs Experience)" />
+
+  <!-- Fonts: Inter & Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS via CDN with Custom Config -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            bgDark: '#0B1120',
+            primary: '#4F46E5',
+            secondary: '#7C3AED',
+            accent: '#06B6D4',
+            muted: '#94A3B8',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            mono: ['Fira Code', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    :root {
+      --bg-color: #0B1120;
+    }
+    body {
+      background-color: #0B1120;
+      color: #F8FAFC;
+      font-family: 'Inter', sans-serif;
+      overflow-x: hidden;
+    }
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0B1120;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(79, 70, 229, 0.6);
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.04);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+    .glass-card:hover {
+      border-color: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 20px 40px -15px rgba(79, 70, 229, 0.25);
+    }
+    .text-gradient {
+      background: linear-gradient(135deg, #FFFFFF 0%, #C7D2FE 50%, #06B6D4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .text-gradient-purple {
+      background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 50%, #06B6D4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .noise-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      opacity: 0.015;
+      background-image: radial-gradient(#fff 1px, transparent 1px);
+      background-size: 16px 16px;
+      z-index: 999;
+    }
+    @keyframes floatOrb {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-12px) rotate(2deg); }
+    }
+    .animate-float {
+      animation: floatOrb 6s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Karthik Krishnan",
+    "jobTitle": "Lead Image Editor & Color Correction Specialist",
+    "description": "Professional Photoshop Image Editor & Color Correction Specialist with 10+ years experience in fashion, e-commerce, and digital imaging.",
+    "url": "https://karthikkrishnan.design",
+    "sameAs": [
+      "https://linkedin.com/in/karthik-krishnan-creative",
+      "https://github.com/karthik-krishnan-design",
+      "https://youtube.com/@karthikkrishnan-creative"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chennai",
+      "addressCountry": "India"
+    },
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Eshakti.com"
+    }
+  }
+  </script>
+</head>
+<body class="bg-[#0B1120] text-slate-100 min-h-screen relative antialiased selection:bg-[#4F46E5] selection:text-white">
+  <!-- Noise Texture -->
+  <div class="noise-overlay"></div>
+
+  <!-- Ambient Aurora Glows -->
+  <div class="fixed -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-gradient-to-b from-[#4F46E5]/20 via-[#7C3AED]/15 to-transparent blur-[140px] pointer-events-none -z-10"></div>
+  <div class="fixed top-1/3 -left-48 w-96 h-96 bg-[#06B6D4]/10 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+  <div class="fixed bottom-20 -right-48 w-96 h-96 bg-[#7C3AED]/15 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+
+  <!-- 1. NAVBAR -->
+  <header id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 bg-[#0B1120]/75 backdrop-blur-xl border-b border-white/[0.08]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      <!-- Monogram Brand -->
+      <a href="#home" class="flex items-center gap-3 group focus:outline-none" aria-label="Karthik Krishnan Home">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-[#4F46E5] via-[#7C3AED] to-[#06B6D4] p-0.5 shadow-[0_0_20px_rgba(79,70,229,0.4)] group-hover:shadow-[0_0_25px_rgba(6,182,212,0.6)] transition-all">
+          <div class="w-full h-full rounded-[10px] bg-[#0B1120] flex items-center justify-center font-mono font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-purple-200 to-cyan-300 text-sm group-hover:scale-105 transition-transform">
+            KK
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-bold text-sm tracking-wide text-white group-hover:text-cyan-300 transition-colors">Karthik Krishnan</span>
+          <span class="text-[10px] font-mono text-slate-400 -mt-0.5">Image Editor & UI Designer</span>
+        </div>
+      </a>
+
+      <!-- Desktop Links with Active Indicators -->
+      <nav class="hidden md:flex items-center gap-1 bg-white/[0.03] border border-white/[0.08] backdrop-blur-md px-3 py-1.5 rounded-full shadow-inner">
+        <a href="#home" class="nav-link px-4 py-1.5 text-xs font-medium text-white rounded-full transition-all bg-gradient-to-r from-[#4F46E5]/30 to-[#7C3AED]/30 border border-white/20">Home</a>
+        <a href="#about" class="nav-link px-4 py-1.5 text-xs font-medium text-slate-400 hover:text-white rounded-full transition-all">About</a>
+        <a href="#skills" class="nav-link px-4 py-1.5 text-xs font-medium text-slate-400 hover:text-white rounded-full transition-all">Skills</a>
+        <a href="#experience" class="nav-link px-4 py-1.5 text-xs font-medium text-slate-400 hover:text-white rounded-full transition-all">Experience</a>
+        <a href="#projects" class="nav-link px-4 py-1.5 text-xs font-medium text-slate-400 hover:text-white rounded-full transition-all">Projects</a>
+        <a href="#services" class="nav-link px-4 py-1.5 text-xs font-medium text-slate-400 hover:text-white rounded-full transition-all">Services</a>
+        <a href="#contact" class="nav-link px-4 py-1.5 text-xs font-medium text-slate-400 hover:text-white rounded-full transition-all">Contact</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="hidden md:flex items-center gap-3">
+        <button onclick="openResumeModal()" class="text-xs font-medium text-slate-300 hover:text-white px-3.5 py-2 rounded-xl border border-white/10 hover:border-white/25 transition-all">
+          Resume
+        </button>
+        <a href="#contact" class="relative group overflow-hidden rounded-xl p-[1px] font-medium text-xs shadow-[0_0_20px_rgba(79,70,229,0.3)] hover:shadow-[0_0_30px_rgba(79,70,229,0.6)] transition-all">
+          <span class="absolute inset-0 bg-gradient-to-r from-[#4F46E5] via-[#7C3AED] to-[#06B6D4]"></span>
+          <span class="relative block px-4 py-2 rounded-[11px] bg-[#0B1120] text-white transition-colors group-hover:bg-[#0B1120]/80">
+            Hire Me
+          </span>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="md:hidden p-2 rounded-xl bg-white/[0.05] border border-white/10 text-slate-300 hover:text-white focus:outline-none" aria-label="Toggle navigation">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobileDrawer" class="hidden md:hidden bg-[#0B1120]/95 backdrop-blur-2xl border-b border-white/10 px-4 pt-3 pb-6 space-y-2 mt-2">
+      <a href="#home" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-sm font-medium text-white bg-white/5">Home</a>
+      <a href="#about" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-sm font-medium text-slate-300 hover:text-white">About</a>
+      <a href="#skills" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-sm font-medium text-slate-300 hover:text-white">Skills</a>
+      <a href="#experience" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-sm font-medium text-slate-300 hover:text-white">Experience</a>
+      <a href="#projects" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-sm font-medium text-slate-300 hover:text-white">Projects</a>
+      <a href="#services" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-sm font-medium text-slate-300 hover:text-white">Services</a>
+      <a href="#contact" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-sm font-medium text-slate-300 hover:text-white">Contact</a>
+      <div class="pt-4 flex gap-2">
+        <button onclick="toggleMobileMenu(); openResumeModal()" class="flex-1 py-2.5 rounded-xl text-xs font-medium text-slate-300 border border-white/10">Resume</button>
+        <a href="#contact" onclick="toggleMobileMenu()" class="flex-1 text-center py-2.5 rounded-xl text-xs font-medium bg-gradient-to-r from-[#4F46E5] to-[#7C3AED] text-white">Contact Me</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 2. HERO SECTION -->
+  <section id="home" class="relative min-h-screen pt-28 pb-16 lg:pt-36 lg:pb-24 flex items-center justify-center overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        <!-- Left Column -->
+        <div class="lg:col-span-7 space-y-6 text-left">
+          <!-- Status Pill -->
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#06B6D4]/15 border border-[#06B6D4]/30 text-cyan-300 text-xs font-medium backdrop-blur-md">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-cyan-400"></span>
+            </span>
+            <span>10+ Years Experience in Photoshop & Digital Imaging</span>
+          </div>
+
+          <!-- Hero Name Heading -->
+          <div class="space-y-2">
+            <h2 class="text-xl sm:text-2xl font-medium text-slate-300">Hi, I'm</h2>
+            <h1 class="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-white leading-tight">
+              <span class="text-gradient">Karthik Krishnan</span>
+            </h1>
+          </div>
+
+          <!-- Typing Animation Headline -->
+          <div class="h-12 sm:h-14 flex items-center">
+            <span id="typingText" class="text-xl sm:text-2xl md:text-3xl font-bold font-mono text-[#06B6D4] flex items-center drop-shadow-[0_0_20px_rgba(6,182,212,0.4)]">
+              Adobe Photoshop
+            </span>
+            <span class="inline-block w-1 h-7 sm:h-8 ml-1 bg-cyan-400 animate-pulse"></span>
+          </div>
+
+          <!-- Exact Hero Bio -->
+          <div class="relative rounded-2xl bg-white/[0.03] border border-white/[0.08] p-5 backdrop-blur-md">
+            <div class="absolute top-0 left-6 right-6 h-[1px] bg-gradient-to-r from-transparent via-[#4F46E5] to-transparent"></div>
+            <p class="text-sm sm:text-base text-slate-300 font-normal leading-relaxed whitespace-pre-line">Professional Photoshop Image Editor & Color Correction Specialist
+Experienced and detail-oriented image editing professional with strong expertise in Adobe Photoshop, photo retouching, color correction, image enhancement, background removal, masking, clipping paths, and high-quality image manipulation. Skilled in transforming raw images into clean, professional, and visually appealing final images while maintaining natural details and accurate colors.
+Highly focused on precision, consistency, quality, and meeting deadlines, with the ability to follow detailed editing instructions and maintain consistent results across large batches of images. Experienced in working with fashion, product, portrait, e-commerce, and commercial photography.</p>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <a href="#projects" class="px-8 py-4 rounded-xl bg-gradient-to-r from-[#4F46E5] to-[#7C3AED] text-white font-semibold text-sm shadow-[0_0_25px_rgba(79,70,229,0.4)] hover:shadow-[0_0_35px_rgba(79,70,229,0.7)] hover:from-[#5b52f3] hover:to-[#8b4bf9] transition-all transform active:scale-95 flex items-center gap-2">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+              <span>View Projects</span>
+            </a>
+
+            <button onclick="openResumeModal()" class="px-8 py-4 rounded-xl bg-[#0B1120]/80 text-white font-semibold text-sm border border-white/20 backdrop-blur-xl hover:bg-white/10 hover:border-white/40 shadow-lg transition-all transform active:scale-95 flex items-center gap-2">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+              <span>Download Resume</span>
+            </button>
+
+            <a href="#contact" class="px-6 py-4 rounded-xl text-slate-300 hover:text-white text-sm font-medium hover:bg-white/5 border border-transparent hover:border-white/10 transition-all">
+              Contact Me
+            </a>
+          </div>
+
+          <!-- Professional Strengths Pills -->
+          <div class="pt-4 flex flex-wrap gap-2 text-xs font-mono text-slate-400">
+            <span class="flex items-center gap-1 bg-white/[0.04] px-3 py-1 rounded-lg border border-white/[0.06]">
+              <span class="text-emerald-400">✔</span> High Attention to Detail
+            </span>
+            <span class="flex items-center gap-1 bg-white/[0.04] px-3 py-1 rounded-lg border border-white/[0.06]">
+              <span class="text-emerald-400">✔</span> Accurate Color Matching
+            </span>
+            <span class="flex items-center gap-1 bg-white/[0.04] px-3 py-1 rounded-lg border border-white/[0.06]">
+              <span class="text-emerald-400">✔</span> Consistent Image Quality
+            </span>
+          </div>
+        </div>
+
+        <!-- Right Column: Interactive Workspace Visual & Floating Badges -->
+        <div class="lg:col-span-5 flex justify-center relative">
+          <!-- Particle Canvas -->
+          <canvas id="heroCanvas" class="absolute inset-0 w-full h-full pointer-events-none -z-10"></canvas>
+
+          <!-- Glass Profile Card -->
+          <div class="relative z-10 w-full max-w-sm rounded-3xl bg-white/[0.06] backdrop-blur-2xl border border-white/[0.18] p-6 shadow-[0_0_50px_rgba(79,70,229,0.25)] transition-transform duration-500 hover:scale-[1.02]">
+            <div class="absolute -top-px left-8 right-8 h-px bg-gradient-to-r from-transparent via-[#06B6D4] to-transparent"></div>
+
+            <div class="flex items-center justify-between pb-4 border-b border-white/10">
+              <div class="flex items-center gap-2">
+                <div class="w-3 h-3 rounded-full bg-red-400/80"></div>
+                <div class="w-3 h-3 rounded-full bg-yellow-400/80"></div>
+                <div class="w-3 h-3 rounded-full bg-emerald-400/80"></div>
+              </div>
+              <div class="text-[11px] font-mono text-cyan-300 bg-cyan-950/50 px-2.5 py-0.5 rounded-full border border-cyan-500/30 flex items-center gap-1">
+                <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping"></span>
+                <span>Master Studio Suite</span>
+              </div>
+            </div>
+
+            <div class="py-6 flex flex-col items-center justify-center text-center">
+              <div class="relative mb-4 group cursor-pointer">
+                <div class="w-24 h-24 rounded-2xl bg-gradient-to-tr from-[#4F46E5] via-[#7C3AED] to-[#06B6D4] p-1 shadow-[0_0_30px_rgba(124,58,237,0.5)] group-hover:rotate-6 transition-transform">
+                  <div class="w-full h-full rounded-[14px] bg-[#0B1120] flex items-center justify-center">
+                    <span class="text-3xl font-extrabold text-gradient font-mono">KK</span>
+                  </div>
+                </div>
+                <div class="absolute -bottom-2 -right-2 bg-gradient-to-r from-[#06B6D4] to-[#4F46E5] text-[10px] font-bold text-white px-2 py-0.5 rounded-full border border-white/40 shadow-lg">
+                  10+ Yrs
+                </div>
+              </div>
+
+              <h3 class="text-lg font-bold text-white tracking-wide">Karthik Krishnan</h3>
+              <p class="text-xs text-indigo-300 font-mono mt-0.5">Graphics & Image Editing Specialist</p>
+
+              <div class="grid grid-cols-3 gap-2 w-full mt-5 pt-4 border-t border-white/10 text-center">
+                <div class="p-2 rounded-xl bg-white/[0.04] border border-white/10">
+                  <div class="text-xs font-bold text-white">50K+</div>
+                  <div class="text-[10px] text-slate-400">Edits</div>
+                </div>
+                <div class="p-2 rounded-xl bg-white/[0.04] border border-white/10">
+                  <div class="text-xs font-bold text-emerald-400">99.9%</div>
+                  <div class="text-[10px] text-slate-400">Delta-E Match</div>
+                </div>
+                <div class="p-2 rounded-xl bg-white/[0.04] border border-white/10">
+                  <div class="text-xs font-bold text-cyan-400">0.0ms</div>
+                  <div class="text-[10px] text-slate-400">Sync Drift</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-xl bg-black/50 border border-white/10 p-3 font-mono text-[11px] space-y-1">
+              <div class="text-slate-400 flex items-center justify-between">
+                <span class="text-emerald-400">✓ Eshakti QC</span>
+                <span class="text-slate-500">Gridlines 100%</span>
+              </div>
+              <div class="text-indigo-300 truncate">
+                <span class="text-slate-500">$</span> ps.colorCalibrate(rawImage)
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating Badges -->
+          <div class="absolute -top-4 -left-6 z-20 hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-xl border border-blue-500/40 bg-blue-950/60 backdrop-blur-xl shadow-xl text-xs font-medium text-slate-200 animate-bounce" style="animation-duration: 4s;">
+            <span>🎨</span> Adobe Photoshop
+          </div>
+          <div class="absolute top-16 -right-6 z-20 hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-xl border border-purple-500/40 bg-purple-950/60 backdrop-blur-xl shadow-xl text-xs font-medium text-slate-200 animate-bounce" style="animation-duration: 4.5s;">
+            <span>🌈</span> Color Grading
+          </div>
+          <div class="absolute bottom-16 -left-6 z-20 hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-xl border border-cyan-500/40 bg-cyan-950/60 backdrop-blur-xl shadow-xl text-xs font-medium text-slate-200 animate-bounce" style="animation-duration: 5s;">
+            <span>✨</span> Photoshop with AI
+          </div>
+          <div class="absolute -bottom-4 -right-4 z-20 hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-xl border border-emerald-500/40 bg-emerald-950/60 backdrop-blur-xl shadow-xl text-xs font-medium text-slate-200 animate-bounce" style="animation-duration: 4.2s;">
+            <span>💻</span> HTML5 & CSS3
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. ABOUT SECTION -->
+  <section id="about" class="py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Section Heading -->
+      <div class="flex flex-col max-w-3xl mb-14 md:mb-20 text-center items-center mx-auto">
+        <div class="mb-4 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#7C3AED]/15 border border-[#7C3AED]/30 text-purple-300 text-xs font-medium">
+          <span class="w-2 h-2 rounded-full bg-[#7C3AED] animate-pulse"></span>
+          ABOUT KARTHIK KRISHNAN
+        </div>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight">
+          A Decade of Mastering <span class="text-gradient-purple">Pixels, Color & Precision</span>
+        </h2>
+        <p class="mt-4 text-base sm:text-lg text-slate-400 font-normal leading-relaxed">
+          Combining ten years of high-volume digital imaging mastery with modern front-end technologies and cutting-edge AI creative pipelines.
+        </p>
+        <div class="mt-6 h-1 w-20 rounded-full bg-gradient-to-r from-[#4F46E5] via-[#7C3AED] to-[#06B6D4]"></div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+        <!-- Left Column -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="glass-card p-8 rounded-3xl space-y-6">
+            <h3 class="text-xl sm:text-2xl font-bold text-white flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-gradient-to-r from-[#4F46E5] to-[#06B6D4] flex items-center justify-center text-white text-sm">★</span>
+              Engineering Visual Excellence
+            </h3>
+
+            <div class="space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
+              <p>
+                With over <strong class="text-white font-semibold">10+ years of dedicated experience</strong>, I specialize in transforming raw camera captures and complex design briefs into flawless, commercial-grade digital assets. My journey spans fast-paced global e-commerce apparel leaders like <strong class="text-cyan-300 font-medium">Eshakti.com</strong>, interactive educational media with <strong class="text-indigo-300 font-medium">Everonn Education</strong>, and multimedia agencies like <strong class="text-purple-300 font-medium">The Wedding Bunch</strong>.
+              </p>
+              <p>
+                My core philosophy centers around <span class="text-white font-medium">fidelity and hygiene</span>: ensuring every garment, portrait, and product retains its genuine physical color profile, tactile micro-texture, and geometric gridline alignment before going live to millions of users worldwide.
+              </p>
+            </div>
+
+            <!-- Core Strengths -->
+            <div class="pt-4 border-t border-white/10 space-y-3">
+              <h4 class="text-xs font-mono uppercase tracking-widest text-slate-400 font-semibold">Core Professional Strengths</h4>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="p-3 rounded-xl bg-white/[0.02] border border-white/[0.06] flex items-start gap-2.5">
+                  <div class="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xs mt-0.5 shrink-0">✔</div>
+                  <div>
+                    <div class="text-xs font-semibold text-white">High attention to detail</div>
+                    <div class="text-[11px] text-slate-400">Pixel-perfect accuracy in skin & textures</div>
+                  </div>
+                </div>
+                <div class="p-3 rounded-xl bg-white/[0.02] border border-white/[0.06] flex items-start gap-2.5">
+                  <div class="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xs mt-0.5 shrink-0">✔</div>
+                  <div>
+                    <div class="text-xs font-semibold text-white">Accurate color matching</div>
+                    <div class="text-[11px] text-slate-400">Strict delta-E adherence to physical apparel</div>
+                  </div>
+                </div>
+                <div class="p-3 rounded-xl bg-white/[0.02] border border-white/[0.06] flex items-start gap-2.5">
+                  <div class="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xs mt-0.5 shrink-0">✔</div>
+                  <div>
+                    <div class="text-xs font-semibold text-white">Consistent image quality</div>
+                    <div class="text-[11px] text-slate-400">Zero quality drift across 1,000+ batches</div>
+                  </div>
+                </div>
+                <div class="p-3 rounded-xl bg-white/[0.02] border border-white/[0.06] flex items-start gap-2.5">
+                  <div class="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xs mt-0.5 shrink-0">✔</div>
+                  <div>
+                    <div class="text-xs font-semibold text-white">Fast & efficient workflow</div>
+                    <div class="text-[11px] text-slate-400">Advanced hotkeys, actions & AI pipelines</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Pills -->
+          <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/[0.06]">
+            <h4 class="text-xs font-mono uppercase tracking-widest text-slate-400 font-semibold mb-3">Signature Skill Spectrum</h4>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 rounded-full text-xs bg-indigo-500/15 text-indigo-300 border border-indigo-500/30">Photoshop with AI</span>
+              <span class="px-3 py-1 rounded-full text-xs bg-purple-500/15 text-purple-300 border border-purple-500/30">Color Grading</span>
+              <span class="px-3 py-1 rounded-full text-xs bg-cyan-500/15 text-cyan-300 border border-cyan-500/30">Photo Retouching</span>
+              <span class="px-3 py-1 rounded-full text-xs bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">Apparel Matching</span>
+              <span class="px-3 py-1 rounded-full text-xs bg-indigo-500/15 text-indigo-300 border border-indigo-500/30">HTML 5</span>
+              <span class="px-3 py-1 rounded-full text-xs bg-purple-500/15 text-purple-300 border border-purple-500/30">CSS 3</span>
+              <span class="px-3 py-1 rounded-full text-xs bg-cyan-500/15 text-cyan-300 border border-cyan-500/30">JavaScript</span>
+              <span class="px-3 py-1 rounded-full text-xs bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">Playwright</span>
+              <span class="px-3 py-1 rounded-full text-xs bg-indigo-500/15 text-indigo-300 border border-indigo-500/30">Audacity Audio</span>
+              <span class="px-3 py-1 rounded-full text-xs bg-purple-500/15 text-purple-300 border border-purple-500/30">AI Tools</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Stats Counters -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="glass-card p-6 rounded-2xl text-center">
+              <div class="text-4xl lg:text-5xl font-black font-mono text-gradient counter" data-target="10">0</div>
+              <div class="text-sm font-semibold text-white mt-2">10+ Years Experience</div>
+              <div class="text-xs text-slate-400 font-mono mt-0.5">Digital Imaging Mastery</div>
+            </div>
+            <div class="glass-card p-6 rounded-2xl text-center">
+              <div class="text-4xl lg:text-5xl font-black font-mono text-gradient counter" data-target="50">0</div>
+              <div class="text-sm font-semibold text-white mt-2">50K+ Images</div>
+              <div class="text-xs text-slate-400 font-mono mt-0.5">High-Volume Batch Catalogs</div>
+            </div>
+            <div class="glass-card p-6 rounded-2xl text-center">
+              <div class="text-4xl lg:text-5xl font-black font-mono text-gradient counter" data-target="2">0</div>
+              <div class="text-sm font-semibold text-white mt-2">2+ 2D Animation Work</div>
+              <div class="text-xs text-slate-400 font-mono mt-0.5">State & CBSE Media</div>
+            </div>
+            <div class="glass-card p-6 rounded-2xl text-center">
+              <div class="text-4xl lg:text-5xl font-black font-mono text-gradient counter" data-target="100">0</div>
+              <div class="text-sm font-semibold text-white mt-2">100% Color Accuracy</div>
+              <div class="text-xs text-slate-400 font-mono mt-0.5">Strict Hygiene & QC</div>
+            </div>
+          </div>
+
+          <!-- Quality Card -->
+          <div class="glass-card p-6 rounded-2xl bg-gradient-to-br from-indigo-950/40 via-purple-950/20 to-slate-900/60 border-indigo-500/30">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-xl bg-indigo-600/30 border border-indigo-400/40 flex items-center justify-center text-indigo-300 font-bold">
+                ✓
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-white">Eshakti Quality Benchmark</h4>
+                <p class="text-xs text-indigo-300 font-mono">100% Production Ready</p>
+              </div>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Specialized in zero-error batch processing. Every single garment is inspected for studio light balance, color temperature accuracy, fabric texture preservation, and strict e-commerce gridline alignment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. SKILLS SECTION -->
+  <section id="skills" class="py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col max-w-3xl mb-14 md:mb-20 text-center items-center mx-auto">
+        <div class="mb-4 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#4F46E5]/15 border border-[#4F46E5]/30 text-indigo-300 text-xs font-medium">
+          <span class="w-2 h-2 rounded-full bg-[#4F46E5] animate-pulse"></span>
+          TECHNICAL MASTERY & TOOLS
+        </div>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight">
+          Skills, Software & <span class="text-gradient-purple">Creative Superpowers</span>
+        </h2>
+        <p class="mt-4 text-base sm:text-lg text-slate-400 font-normal leading-relaxed">
+          A comprehensive toolkit engineered over 10+ years of high-end image manipulation, web design, multimedia development, and AI-accelerated workflows.
+        </p>
+        <div class="mt-6 h-1 w-20 rounded-full bg-gradient-to-r from-[#4F46E5] via-[#7C3AED] to-[#06B6D4]"></div>
+      </div>
+
+      <!-- Grouped Skills Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Software Card -->
+        <div class="glass-card p-6 rounded-3xl space-y-4">
+          <div class="flex items-center justify-between pb-3 border-b border-white/10">
+            <div>
+              <h3 class="text-base font-bold text-white">Software & Creative Suite</h3>
+              <p class="text-xs text-slate-400">Industry-standard design & audio editors</p>
+            </div>
+            <span class="text-indigo-400 text-lg">✦</span>
+          </div>
+          <div class="space-y-3 text-xs">
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span class="font-semibold text-white">Adobe Photoshop</span>
+                <span class="font-mono text-cyan-300">98% (Master)</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-gradient-to-r from-indigo-500 to-cyan-400 w-[98%]"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span class="font-semibold text-white">Photoshop with AI</span>
+                <span class="font-mono text-cyan-300">95% (Expert)</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-gradient-to-r from-indigo-500 to-cyan-400 w-[95%]"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span>HTML 5</span>
+                <span class="font-mono text-slate-400">90%</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-indigo-500 w-[90%]"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span>CSS 3</span>
+                <span class="font-mono text-slate-400">90%</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-indigo-500 w-[90%]"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span>MS Office Suite</span>
+                <span class="font-mono text-slate-400">92%</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-indigo-500 w-[92%]"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span>Audacity Audio Editor</span>
+                <span class="font-mono text-slate-400">88%</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-indigo-500 w-[88%]"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span>Adobe Flash / Animate</span>
+                <span class="font-mono text-slate-400">85%</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-indigo-500 w-[85%]"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span>DaVinci Resolve</span>
+                <span class="font-mono text-slate-400">80%</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-indigo-500 w-[80%]"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Programming & Frontend -->
+        <div class="glass-card p-6 rounded-3xl space-y-4">
+          <div class="flex items-center justify-between pb-3 border-b border-white/10">
+            <div>
+              <h3 class="text-base font-bold text-white">Programming & Frontend</h3>
+              <p class="text-xs text-slate-400">Responsive, modern standards-compliant web</p>
+            </div>
+            <span class="text-purple-400 text-lg">✦</span>
+          </div>
+          <div class="space-y-3 text-xs">
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span class="font-semibold text-white">HTML 5 Semantic Markup</span>
+                <span class="font-mono text-cyan-300">92%</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-gradient-to-r from-purple-500 to-indigo-500 w-[92%]"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span class="font-semibold text-white">Modern CSS & Flex/Grid</span>
+                <span class="font-mono text-cyan-300">90%</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-gradient-to-r from-purple-500 to-indigo-500 w-[90%]"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span>JavaScript (ES6+)</span>
+                <span class="font-mono text-slate-400">82%</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-purple-500 w-[82%]"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span>TypeScript</span>
+                <span class="font-mono text-slate-400">78%</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-purple-500 w-[78%]"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span>Responsive Web Design</span>
+                <span class="font-mono text-slate-400">95%</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-purple-500 w-[95%]"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testing & Quality Control -->
+        <div class="glass-card p-6 rounded-3xl space-y-4">
+          <div class="flex items-center justify-between pb-3 border-b border-white/10">
+            <div>
+              <h3 class="text-base font-bold text-white">Testing & Quality Control</h3>
+              <p class="text-xs text-slate-400">Image hygiene, gridlines & UI QA</p>
+            </div>
+            <span class="text-cyan-400 text-lg">✦</span>
+          </div>
+          <div class="space-y-3 text-xs">
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span class="font-semibold text-white">Image Hygiene & Gridlines QC</span>
+                <span class="font-mono text-cyan-300">99% (Master)</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-gradient-to-r from-cyan-500 to-indigo-500 w-[99%]"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span class="font-semibold text-white">UI Quality Assurance</span>
+                <span class="font-mono text-cyan-300">90%</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-gradient-to-r from-cyan-500 to-indigo-500 w-[90%]"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span>API & Defect Testing</span>
+                <span class="font-mono text-slate-400">80%</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-cyan-500 w-[80%]"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-slate-200 mb-1">
+                <span>Playwright Automation</span>
+                <span class="font-mono text-slate-400">75%</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full bg-cyan-500 w-[75%]"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI & Automation -->
+        <div class="glass-card p-6 rounded-3xl space-y-4 md:col-span-2 lg:col-span-3">
+          <div class="flex items-center justify-between pb-3 border-b border-white/10">
+            <div>
+              <h3 class="text-base font-bold text-white">Artificial Intelligence & Next-Gen Automation</h3>
+              <p class="text-xs text-slate-400">State-of-the-art AI tools for rapid creative enhancement</p>
+            </div>
+            <span class="text-emerald-400 text-lg">✨</span>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 pt-2">
+            <div class="p-3.5 rounded-2xl bg-white/[0.02] border border-white/[0.08]">
+              <div class="text-xs font-bold text-white mb-1">Photoshop Generative AI</div>
+              <div class="text-[11px] text-slate-400">Generative Fill, hair extraction, scene extension</div>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-white/[0.02] border border-white/[0.08]">
+              <div class="text-xs font-bold text-white mb-1">Google AI & Gemini</div>
+              <div class="text-[11px] text-slate-400">High-fidelity generative images & asset synthesis</div>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-white/[0.02] border border-white/[0.08]">
+              <div class="text-xs font-bold text-white mb-1">ChatGPT & Claude</div>
+              <div class="text-[11px] text-slate-400">Creative briefs, prompt engineering, code acceleration</div>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-white/[0.02] border border-white/[0.08]">
+              <div class="text-xs font-bold text-white mb-1">GitHub Copilot & CI/CD</div>
+              <div class="text-[11px] text-slate-400">Automated frontend workflows & version control</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. EXPERIENCE SECTION -->
+  <section id="experience" class="py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col max-w-3xl mb-14 md:mb-20 text-center items-center mx-auto">
+        <div class="mb-4 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#06B6D4]/15 border border-[#06B6D4]/30 text-cyan-300 text-xs font-medium">
+          <span class="w-2 h-2 rounded-full bg-[#06B6D4] animate-pulse"></span>
+          CAREER TIMELINE & ROLES
+        </div>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight">
+          10+ Years of Professional <span class="text-gradient-purple">Industry Leadership</span>
+        </h2>
+        <p class="mt-4 text-base sm:text-lg text-slate-400 font-normal leading-relaxed">
+          Delivering consistent, high-fidelity visual and multimedia assets across leading global e-commerce and educational organizations.
+        </p>
+        <div class="mt-6 h-1 w-20 rounded-full bg-gradient-to-r from-[#4F46E5] via-[#7C3AED] to-[#06B6D4]"></div>
+      </div>
+
+      <!-- Vertical Timeline -->
+      <div class="relative max-w-4xl mx-auto space-y-12">
+        <div class="absolute top-0 bottom-0 left-4 sm:left-1/2 -translate-x-1/2 w-0.5 bg-gradient-to-b from-[#4F46E5] via-[#7C3AED] to-[#06B6D4]"></div>
+
+        <!-- Experience 1: Eshakti -->
+        <div class="relative flex flex-col sm:flex-row items-start sm:flex-row-reverse gap-8 group">
+          <div class="absolute left-4 sm:left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-[#0B1120] border-2 border-[#06B6D4] shadow-[0_0_20px_rgba(6,182,212,0.8)] flex items-center justify-center text-xs font-mono font-bold text-cyan-300 z-20">
+            1
+          </div>
+          <div class="w-full sm:w-[calc(50%-2.5rem)] pl-12 sm:pl-0">
+            <div class="glass-card p-6 sm:p-8 rounded-3xl space-y-4 hover:border-indigo-500/50 transition-all">
+              <div class="flex items-center justify-between border-b border-white/10 pb-3">
+                <span class="text-xs font-mono font-semibold text-cyan-300 bg-cyan-950/40 px-2.5 py-0.5 rounded-full border border-cyan-500/30">10+ Years</span>
+                <span class="text-xs font-mono text-slate-400">Team: 10 Members</span>
+              </div>
+              <h3 class="text-lg font-bold text-white">IMAGE EDITOR & COLOR CORRECTION SPECIALIST</h3>
+              <div class="text-sm font-semibold text-indigo-300">Eshakti.com • Chennai, India</div>
+              <p class="text-xs text-slate-300 leading-relaxed">
+                Leading high-volume image enhancement and color matching pipelines for global e-commerce apparel platforms.
+              </p>
+              <div class="pt-3 border-t border-white/10 space-y-2">
+                <h4 class="text-[11px] font-mono uppercase text-slate-400 font-semibold">Core Responsibilities</h4>
+                <ul class="space-y-1.5 text-xs text-slate-300">
+                  <li class="flex items-start gap-2"><span class="text-cyan-400">›</span><span>Enhance raw images in order to make them appealing yet true to the original product the article goes live on website & app.</span></li>
+                  <li class="flex items-start gap-2"><span class="text-cyan-400">›</span><span>Check lighting of imagery across all studio setups and fabric reflections.</span></li>
+                  <li class="flex items-start gap-2"><span class="text-cyan-400">›</span><span>Check images - ensure that the exact colour of the article type is captured.</span></li>
+                  <li class="flex items-start gap-2"><span class="text-cyan-400">›</span><span>Fit images within the prescribed gridlines for perfect app & catalog display.</span></li>
+                  <li class="flex items-start gap-2"><span class="text-cyan-400">›</span><span>Check overall image for hygiene factors (dust, artifacts, haloing).</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 2: The Wedding Bunch -->
+        <div class="relative flex flex-col sm:flex-row items-start gap-8 group">
+          <div class="absolute left-4 sm:left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-[#0B1120] border-2 border-[#7C3AED] shadow-[0_0_20px_rgba(124,58,237,0.8)] flex items-center justify-center text-xs font-mono font-bold text-purple-300 z-20">
+            2
+          </div>
+          <div class="w-full sm:w-[calc(50%-2.5rem)] pl-12 sm:pl-0">
+            <div class="glass-card p-6 sm:p-8 rounded-3xl space-y-4 hover:border-purple-500/50 transition-all">
+              <div class="flex items-center justify-between border-b border-white/10 pb-3">
+                <span class="text-xs font-mono font-semibold text-purple-300 bg-purple-950/40 px-2.5 py-0.5 rounded-full border border-purple-500/30">Milestone</span>
+                <span class="text-xs font-mono text-slate-400">Team: 12 Members</span>
+              </div>
+              <h3 class="text-lg font-bold text-white">E-LEARNING CONTENT DEVELOPER</h3>
+              <div class="text-sm font-semibold text-purple-300">The Wedding Bunch • Chennai, India</div>
+              <p class="text-xs text-slate-300 leading-relaxed">
+                Color Correction, Images Collage, Layout Creation, Creating Vector Images for digital imaging. Multi-tasking often work on more than one design brief at a time. Using Cascading Style sheet of Adobe Dreamweaver to convert PDF reference contents to HTML version. Analyzing the defects and create monthly report. Producing accurate and high quality work for Virtual Labs, Website Templates design, Logo, Icon, Flash Banner, and HR Presentations.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 3: Everonn Education Limited -->
+        <div class="relative flex flex-col sm:flex-row items-start sm:flex-row-reverse gap-8 group">
+          <div class="absolute left-4 sm:left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-[#0B1120] border-2 border-[#4F46E5] shadow-[0_0_20px_rgba(79,70,229,0.8)] flex items-center justify-center text-xs font-mono font-bold text-indigo-300 z-20">
+            3
+          </div>
+          <div class="w-full sm:w-[calc(50%-2.5rem)] pl-12 sm:pl-0">
+            <div class="glass-card p-6 sm:p-8 rounded-3xl space-y-4 hover:border-indigo-500/50 transition-all">
+              <div class="flex items-center justify-between border-b border-white/10 pb-3">
+                <span class="text-xs font-mono font-semibold text-indigo-300 bg-indigo-950/40 px-2.5 py-0.5 rounded-full border border-indigo-500/30">Educational Media</span>
+                <span class="text-xs font-mono text-slate-400">Team: 20 Members</span>
+              </div>
+              <h3 class="text-lg font-bold text-white">E-LEARNING CONTENT DEVELOPER</h3>
+              <div class="text-sm font-semibold text-indigo-300">Everonn Education Limited • Chennai 600 096</div>
+              <p class="text-xs text-slate-300 leading-relaxed">
+                Responsible for animation development, audio synchronization, and audio editing. Using a wide range of media, including photography and computer aided design. Delivered rich digital curriculum for Samacheer, CBSE Board, Maharashtra Board, Andhra Pradesh Board, Andhra Pradesh LO Board, and Tamil Nadu Board.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. PROJECTS SECTION -->
+  <section id="projects" class="py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col max-w-3xl mb-14 md:mb-20 text-center items-center mx-auto">
+        <div class="mb-4 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#10B981]/15 border border-[#10B981]/30 text-emerald-300 text-xs font-medium">
+          <span class="w-2 h-2 rounded-full bg-[#10B981] animate-pulse"></span>
+          FEATURED CLIENT & COMPANY WORK
+        </div>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight">
+          Flagship Production <span class="text-gradient-purple">Case Studies & Projects</span>
+        </h2>
+        <p class="mt-4 text-base sm:text-lg text-slate-400 font-normal leading-relaxed">
+          Explore interactive Before / After sliders showcasing raw images transformed into calibrated, polished e-commerce and media assets.
+        </p>
+        <div class="mt-6 h-1 w-20 rounded-full bg-gradient-to-r from-[#4F46E5] via-[#7C3AED] to-[#06B6D4]"></div>
+      </div>
+
+      <!-- 4 Premium Cards Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <!-- Project 1: Eshakti -->
+        <div class="glass-card p-6 sm:p-8 rounded-3xl space-y-6 flex flex-col justify-between">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between border-b border-white/10 pb-3">
+              <span class="text-xs font-mono text-cyan-300 font-semibold bg-cyan-950/40 px-2.5 py-0.5 rounded-full border border-cyan-500/30">Eshakti.com, Chennai</span>
+              <span class="text-xs font-mono text-slate-400">Team: 10 • Role: Image Editor</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">E-Commerce Fashion & Apparel Color Grading Suite</h3>
+            
+            <!-- Interactive Slider Simulation -->
+            <div class="slider-box relative w-full h-72 rounded-2xl overflow-hidden cursor-ew-resize select-none border border-white/15 shadow-xl bg-slate-950">
+              <!-- After Background -->
+              <div class="absolute inset-0 bg-gradient-to-br from-indigo-950 to-purple-950 flex items-center justify-center p-6 text-center">
+                <div class="w-56 h-56 rounded-2xl bg-indigo-900/60 border border-indigo-400/40 p-4 flex flex-col justify-between items-center shadow-2xl">
+                  <span class="text-[10px] font-mono text-emerald-400">● CALIBRATED sRGB (Delta-E &lt; 0.8)</span>
+                  <div class="w-24 h-24 rounded-full bg-gradient-to-tr from-[#4F46E5] to-[#EC4899] shadow-[0_0_30px_rgba(79,70,229,0.5)]"></div>
+                  <span class="text-[10px] font-mono text-slate-300">Perfect Fabric Texture & Color</span>
+                </div>
+                <span class="absolute bottom-3 right-3 bg-black/80 px-2.5 py-0.5 rounded-full text-[10px] font-mono text-indigo-300 border border-indigo-500/30">RETOUCHED MASTER</span>
+              </div>
+              <!-- Before Foreground Clip -->
+              <div class="slider-clip absolute inset-0 w-1/2 overflow-hidden bg-neutral-900 flex items-center justify-center border-r-2 border-cyan-400 shadow-[0_0_15px_#06B6D4]">
+                <div class="w-[300px] sm:w-[400px] h-full flex items-center justify-center p-6 text-center bg-stone-900">
+                  <div class="w-56 h-56 rounded-2xl bg-stone-800 border border-neutral-700 p-4 flex flex-col justify-between items-center filter grayscale-[50%]">
+                    <span class="text-[10px] font-mono text-amber-400">▲ RAW FLAT DNG</span>
+                    <div class="w-24 h-24 rounded-full bg-stone-700"></div>
+                    <span class="text-[10px] font-mono text-slate-400">Uncorrected Raw Exposure</span>
+                  </div>
+                </div>
+                <span class="absolute bottom-3 left-3 bg-black/80 px-2.5 py-0.5 rounded-full text-[10px] font-mono text-amber-300 border border-white/20">RAW CAPTURE</span>
+              </div>
+            </div>
+            <p class="text-xs text-slate-400 font-mono text-center">↔ Drag slider horizontally to compare Raw vs Retouched</p>
+
+            <ul class="space-y-1.5 text-xs text-slate-300 pt-2">
+              <li class="flex items-start gap-2"><span class="text-cyan-400">›</span><span>Enhance raw images in order to make them appealing yet true to the original product the article goes live on website & app.</span></li>
+              <li class="flex items-start gap-2"><span class="text-cyan-400">›</span><span>Check lighting of imagery across all studio exposures and fabric reflections.</span></li>
+              <li class="flex items-start gap-2"><span class="text-cyan-400">›</span><span>Check images - ensure that the exact colour of the article type is captured.</span></li>
+              <li class="flex items-start gap-2"><span class="text-cyan-400">›</span><span>Fit images within prescribed gridlines and inspect hygiene factors.</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Project 2: The Wedding Bunch -->
+        <div class="glass-card p-6 sm:p-8 rounded-3xl space-y-6 flex flex-col justify-between">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between border-b border-white/10 pb-3">
+              <span class="text-xs font-mono text-purple-300 font-semibold bg-purple-950/40 px-2.5 py-0.5 rounded-full border border-purple-500/30">The Wedding Bunch, Chennai</span>
+              <span class="text-xs font-mono text-slate-400">Team: 12 • Role: E-Learning Developer</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">Virtual Lab, Web Templates & Vector Imaging</h3>
+            
+            <!-- Visual Box -->
+            <div class="slider-box relative w-full h-72 rounded-2xl overflow-hidden cursor-ew-resize select-none border border-white/15 shadow-xl bg-slate-950">
+              <div class="absolute inset-0 bg-gradient-to-br from-purple-950 to-slate-950 flex items-center justify-center p-6 text-center">
+                <div class="w-64 h-56 rounded-2xl bg-slate-900/80 border border-purple-400/40 p-4 flex flex-col justify-between items-center shadow-2xl">
+                  <span class="text-[10px] font-mono text-purple-300">● RESPONSIVE HTML5 / DREAMWEAVER</span>
+                  <div class="w-full h-16 rounded-xl bg-purple-600/30 border border-purple-400/40 flex items-center justify-center text-xs text-white">Interactive Web Template</div>
+                  <span class="text-[10px] font-mono text-slate-300">Vector Logos & Flash Banners</span>
+                </div>
+                <span class="absolute bottom-3 right-3 bg-black/80 px-2.5 py-0.5 rounded-full text-[10px] font-mono text-purple-300 border border-purple-500/30">FINAL PRODUCT</span>
+              </div>
+              <div class="slider-clip absolute inset-0 w-1/2 overflow-hidden bg-neutral-900 flex items-center justify-center border-r-2 border-purple-400 shadow-[0_0_15px_#7C3AED]">
+                <div class="w-[300px] sm:w-[400px] h-full flex items-center justify-center p-6 text-center bg-stone-900">
+                  <div class="w-64 h-56 rounded-2xl bg-stone-800 border border-neutral-700 p-4 flex flex-col justify-between items-center">
+                    <span class="text-[10px] font-mono text-amber-400">▲ UNSTRUCTURED PDF BRIEF</span>
+                    <div class="w-full h-16 rounded-xl bg-neutral-700 flex items-center justify-center text-xs text-slate-400">Static Document</div>
+                    <span class="text-[10px] font-mono text-slate-400">Raw Concept Assets</span>
+                  </div>
+                </div>
+                <span class="absolute bottom-3 left-3 bg-black/80 px-2.5 py-0.5 rounded-full text-[10px] font-mono text-amber-300 border border-white/20">RAW BRIEF</span>
+              </div>
+            </div>
+            <p class="text-xs text-slate-400 font-mono text-center">↔ Drag slider horizontally to compare Raw vs Retouched</p>
+
+            <ul class="space-y-1.5 text-xs text-slate-300 pt-2">
+              <li class="flex items-start gap-2"><span class="text-purple-400">›</span><span>Color Correction, Images Collage, Layout Creation, Creating Vector Images for digital imaging.</span></li>
+              <li class="flex items-start gap-2"><span class="text-purple-400">›</span><span>Using Cascading Style sheet of Adobe Dreamweaver to convert PDF reference contents to HTML version.</span></li>
+              <li class="flex items-start gap-2"><span class="text-purple-400">›</span><span>Analyzing the defects and create monthly report with high accuracy.</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Project 3: Everonn Education -->
+        <div class="glass-card p-6 sm:p-8 rounded-3xl space-y-6 flex flex-col justify-between">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between border-b border-white/10 pb-3">
+              <span class="text-xs font-mono text-cyan-300 font-semibold bg-cyan-950/40 px-2.5 py-0.5 rounded-full border border-cyan-500/30">Everonn Education Limited, Chennai</span>
+              <span class="text-xs font-mono text-slate-400">Team: 20 • Role: E-Learning Developer</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">Multi-Board 2D Animation & Audio Sync Engine</h3>
+            
+            <div class="slider-box relative w-full h-72 rounded-2xl overflow-hidden cursor-ew-resize select-none border border-white/15 shadow-xl bg-slate-950">
+              <div class="absolute inset-0 bg-gradient-to-br from-cyan-950 to-indigo-950 flex items-center justify-center p-6 text-center">
+                <div class="w-64 h-56 rounded-2xl bg-slate-900/80 border border-cyan-400/40 p-4 flex flex-col justify-between items-center shadow-2xl">
+                  <span class="text-[10px] font-mono text-cyan-300">● 48kHz AUDACITY AUDIO SYNC</span>
+                  <div class="flex items-center gap-1 h-12 justify-center">
+                    <div class="w-1.5 h-8 rounded-full bg-cyan-400"></div>
+                    <div class="w-1.5 h-12 rounded-full bg-cyan-300"></div>
+                    <div class="w-1.5 h-6 rounded-full bg-indigo-400"></div>
+                    <div class="w-1.5 h-10 rounded-full bg-cyan-400"></div>
+                  </div>
+                  <span class="text-[10px] font-mono text-slate-300">Frame-Exact Lip Sync & Noise Free</span>
+                </div>
+                <span class="absolute bottom-3 right-3 bg-black/80 px-2.5 py-0.5 rounded-full text-[10px] font-mono text-cyan-300 border border-cyan-500/30">MASTER SYNC</span>
+              </div>
+              <div class="slider-clip absolute inset-0 w-1/2 overflow-hidden bg-neutral-900 flex items-center justify-center border-r-2 border-cyan-400 shadow-[0_0_15px_#06B6D4]">
+                <div class="w-[300px] sm:w-[400px] h-full flex items-center justify-center p-6 text-center bg-stone-900">
+                  <div class="w-64 h-56 rounded-2xl bg-stone-800 border border-neutral-700 p-4 flex flex-col justify-between items-center">
+                    <span class="text-[10px] font-mono text-amber-400">▲ RAW NOISY AUDIO</span>
+                    <div class="flex items-center gap-1 h-12 justify-center opacity-40">
+                      <div class="w-1.5 h-3 rounded-full bg-slate-400"></div>
+                      <div class="w-1.5 h-4 rounded-full bg-slate-400"></div>
+                      <div class="w-1.5 h-2 rounded-full bg-slate-400"></div>
+                    </div>
+                    <span class="text-[10px] font-mono text-slate-400">Raw Microphone Bleed</span>
+                  </div>
+                </div>
+                <span class="absolute bottom-3 left-3 bg-black/80 px-2.5 py-0.5 rounded-full text-[10px] font-mono text-amber-300 border border-white/20">RAW TRACK</span>
+              </div>
+            </div>
+            <p class="text-xs text-slate-400 font-mono text-center">↔ Drag slider horizontally to compare Raw vs Retouched</p>
+
+            <ul class="space-y-1.5 text-xs text-slate-300 pt-2">
+              <li class="flex items-start gap-2"><span class="text-cyan-400">›</span><span>Responsible for animation development, audio synchronization, and audio editing.</span></li>
+              <li class="flex items-start gap-2"><span class="text-cyan-400">›</span><span>Using a wide range of media, including photography and computer aided design.</span></li>
+              <li class="flex items-start gap-2"><span class="text-cyan-400">›</span><span>Samacheer, CBSE Board, Maharashtra Board, Andhra Pradesh Board, Tamil Nadu Board.</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Project 4: AI Photo Retouching Suite -->
+        <div class="glass-card p-6 sm:p-8 rounded-3xl space-y-6 flex flex-col justify-between">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between border-b border-white/10 pb-3">
+              <span class="text-xs font-mono text-pink-300 font-semibold bg-pink-950/40 px-2.5 py-0.5 rounded-full border border-pink-500/30">Creative Studio Showcase</span>
+              <span class="text-xs font-mono text-slate-400">10+ Yrs Mastery • Photoshop AI</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">AI-Assisted Photo Retouching & Skin Harmonization</h3>
+            
+            <div class="slider-box relative w-full h-72 rounded-2xl overflow-hidden cursor-ew-resize select-none border border-white/15 shadow-xl bg-slate-950">
+              <div class="absolute inset-0 bg-gradient-to-br from-pink-950 to-slate-950 flex items-center justify-center p-6 text-center">
+                <div class="w-64 h-56 rounded-2xl bg-slate-900/80 border border-pink-400/40 p-4 flex flex-col justify-between items-center shadow-2xl">
+                  <span class="text-[10px] font-mono text-pink-300">● 100% MICRO-TEXTURE PRESERVED</span>
+                  <div class="w-20 h-20 rounded-full bg-gradient-to-tr from-amber-200 via-rose-300 to-amber-100 shadow-[0_0_30px_rgba(244,114,182,0.4)]"></div>
+                  <span class="text-[10px] font-mono text-slate-300">Generative Fill & Frequency Separation</span>
+                </div>
+                <span class="absolute bottom-3 right-3 bg-black/80 px-2.5 py-0.5 rounded-full text-[10px] font-mono text-pink-300 border border-pink-500/30">AI ENHANCED</span>
+              </div>
+              <div class="slider-clip absolute inset-0 w-1/2 overflow-hidden bg-neutral-900 flex items-center justify-center border-r-2 border-pink-400 shadow-[0_0_15px_#EC4899]">
+                <div class="w-[300px] sm:w-[400px] h-full flex items-center justify-center p-6 text-center bg-stone-900">
+                  <div class="w-64 h-56 rounded-2xl bg-stone-800 border border-neutral-700 p-4 flex flex-col justify-between items-center">
+                    <span class="text-[10px] font-mono text-amber-400">▲ UNRETRACTED RAW</span>
+                    <div class="w-20 h-20 rounded-full bg-amber-800/50"></div>
+                    <span class="text-[10px] font-mono text-slate-400">Flat Studio Lighting</span>
+                  </div>
+                </div>
+                <span class="absolute bottom-3 left-3 bg-black/80 px-2.5 py-0.5 rounded-full text-[10px] font-mono text-amber-300 border border-white/20">UNEDITED</span>
+              </div>
+            </div>
+            <p class="text-xs text-slate-400 font-mono text-center">↔ Drag slider horizontally to compare Raw vs Retouched</p>
+
+            <ul class="space-y-1.5 text-xs text-slate-300 pt-2">
+              <li class="flex items-start gap-2"><span class="text-pink-400">›</span><span>Advanced frequency separation preserving 100% authentic skin pore microtexture.</span></li>
+              <li class="flex items-start gap-2"><span class="text-pink-400">›</span><span>Generative AI background extension and non-destructive layer structuring.</span></li>
+              <li class="flex items-start gap-2"><span class="text-pink-400">›</span><span>Commercial print & 4K retina ready preparation with strict delta-E color accuracy.</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. SERVICES SECTION -->
+  <section id="services" class="py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col max-w-3xl mb-14 md:mb-20 text-center items-center mx-auto">
+        <div class="mb-4 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#4F46E5]/15 border border-[#4F46E5]/30 text-indigo-300 text-xs font-medium">
+          <span class="w-2 h-2 rounded-full bg-[#4F46E5] animate-pulse"></span>
+          CREATIVE SERVICES & SOLUTIONS
+        </div>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight">
+          World-Class Creative <span class="text-gradient-purple">& Production Services</span>
+        </h2>
+        <p class="mt-4 text-base sm:text-lg text-slate-400 font-normal leading-relaxed">
+          Delivering end-to-end design, image enhancement, precision color correction, audio mastering, and AI-accelerated workflows.
+        </p>
+        <div class="mt-6 h-1 w-20 rounded-full bg-gradient-to-r from-[#4F46E5] via-[#7C3AED] to-[#06B6D4]"></div>
+      </div>
+
+      <!-- 6 Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="glass-card p-6 rounded-3xl space-y-4 hover:border-indigo-500/50 transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-indigo-500 to-purple-600 flex items-center justify-center text-white text-lg">✦</div>
+          <h3 class="text-lg font-bold text-white">Photo Editing & Retouching</h3>
+          <p class="text-xs text-slate-300 leading-relaxed">Pixel-perfect skin retouching, background removal, clipping paths, frequency separation, and non-destructive manipulation.</p>
+          <div class="pt-3 border-t border-white/10 text-xs font-mono text-cyan-300">50,000+ Raw Images Polished</div>
+        </div>
+
+        <div class="glass-card p-6 rounded-3xl space-y-4 hover:border-purple-500/50 transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-purple-500 to-pink-600 flex items-center justify-center text-white text-lg">🌈</div>
+          <h3 class="text-lg font-bold text-white">Color Correction & Grading</h3>
+          <p class="text-xs text-slate-300 leading-relaxed">Accurate delta-E garment color matching, studio white balance calibration, and mood grading across sRGB and Adobe RGB.</p>
+          <div class="pt-3 border-t border-white/10 text-xs font-mono text-purple-300">99.9% Color Match Precision</div>
+        </div>
+
+        <div class="glass-card p-6 rounded-3xl space-y-4 hover:border-cyan-500/50 transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center text-white text-lg">✨</div>
+          <h3 class="text-lg font-bold text-white">Google AI Generated Images</h3>
+          <p class="text-xs text-slate-300 leading-relaxed">Harnessing Google AI, Gemini, and Photoshop Generative Fill for next-gen asset synthesis, scene extension, and rapid prototyping.</p>
+          <div class="pt-3 border-t border-white/10 text-xs font-mono text-cyan-300">10x Faster Prototyping</div>
+        </div>
+
+        <div class="glass-card p-6 rounded-3xl space-y-4 hover:border-emerald-500/50 transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-emerald-500 to-teal-600 flex items-center justify-center text-white text-lg">💻</div>
+          <h3 class="text-lg font-bold text-white">UI Design & Frontend Dev</h3>
+          <p class="text-xs text-slate-300 leading-relaxed">Pixel-precise UI design, responsive HTML5/CSS3 architecture, Flexbox/Grid layouts, and interactive micro-animations.</p>
+          <div class="pt-3 border-t border-white/10 text-xs font-mono text-emerald-300">100% Responsive & Accessible</div>
+        </div>
+
+        <div class="glass-card p-6 rounded-3xl space-y-4 hover:border-amber-500/50 transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-amber-500 to-rose-600 flex items-center justify-center text-white text-lg">🎙️</div>
+          <h3 class="text-lg font-bold text-white">Video Editing & Audio Sync</h3>
+          <p class="text-xs text-slate-300 leading-relaxed">DaVinci Resolve video assembly, Audacity voice mastering, noise reduction, and frame-by-frame 2D animation timing.</p>
+          <div class="pt-3 border-t border-white/10 text-xs font-mono text-amber-300">2+ Major 2D Animation Suites</div>
+        </div>
+
+        <div class="glass-card p-6 rounded-3xl space-y-4 hover:border-blue-500/50 transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-700 flex items-center justify-center text-white text-lg">🛡️</div>
+          <h3 class="text-lg font-bold text-white">E-Commerce Batch QC</h3>
+          <p class="text-xs text-slate-300 leading-relaxed">Standardized catalog processing, automated Photoshop actions, prescribed gridline compliance, and zero defect hygiene inspections.</p>
+          <div class="pt-3 border-t border-white/10 text-xs font-mono text-indigo-300">Zero Defect Catalog Standards</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. CONTACT SECTION -->
+  <section id="contact" class="py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col max-w-3xl mb-14 md:mb-20 text-center items-center mx-auto">
+        <div class="mb-4 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#10B981]/15 border border-[#10B981]/30 text-emerald-300 text-xs font-medium">
+          <span class="w-2 h-2 rounded-full bg-[#10B981] animate-pulse"></span>
+          GET IN TOUCH
+        </div>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight">
+          Let's Collaborate On Your <span class="text-gradient-purple">Next High-Impact Project</span>
+        </h2>
+        <p class="mt-4 text-base sm:text-lg text-slate-400 font-normal leading-relaxed">
+          Whether you need high-volume e-commerce photo retouching, apparel color matching, creative UI design, or an experienced 10+ year lead designer.
+        </p>
+        <div class="mt-6 h-1 w-20 rounded-full bg-gradient-to-r from-[#4F46E5] via-[#7C3AED] to-[#06B6D4]"></div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+        <!-- Form -->
+        <div class="lg:col-span-7">
+          <div class="glass-card p-8 rounded-3xl space-y-6">
+            <h3 class="text-xl font-bold text-white">Send a Direct Message</h3>
+            <form id="contactForm" onsubmit="handleContactSubmit(event)" class="space-y-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="space-y-1.5">
+                  <label class="text-xs font-mono text-slate-300">Your Name</label>
+                  <input type="text" required placeholder="e.g. Rahul Sharma" class="w-full px-4 py-3 rounded-xl bg-white/[0.04] border border-white/10 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-[#06B6D4]" />
+                </div>
+                <div class="space-y-1.5">
+                  <label class="text-xs font-mono text-slate-300">Your Email Address</label>
+                  <input type="email" required placeholder="e.g. rahul@company.com" class="w-full px-4 py-3 rounded-xl bg-white/[0.04] border border-white/10 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-[#06B6D4]" />
+                </div>
+              </div>
+              <div class="space-y-1.5">
+                <label class="text-xs font-mono text-slate-300">Subject / Project Scope</label>
+                <input type="text" required placeholder="e.g. High-Volume E-Commerce Photo Retouching & Color Grading" class="w-full px-4 py-3 rounded-xl bg-white/[0.04] border border-white/10 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-[#06B6D4]" />
+              </div>
+              <div class="space-y-1.5">
+                <label class="text-xs font-mono text-slate-300">Project Brief & Details</label>
+                <textarea rows="5" required placeholder="Tell me about your batch requirements, timeline, and quality specifications..." class="w-full px-4 py-3 rounded-xl bg-white/[0.04] border border-white/10 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-[#06B6D4] resize-none"></textarea>
+              </div>
+              <button type="submit" id="submitBtn" class="w-full py-4 rounded-xl bg-gradient-to-r from-[#4F46E5] to-[#7C3AED] text-white font-semibold text-sm shadow-[0_0_25px_rgba(79,70,229,0.4)] hover:shadow-[0_0_35px_rgba(79,70,229,0.7)] transition-all">
+                Send Direct Message
+              </button>
+            </form>
+            <div id="formSuccess" class="hidden p-4 rounded-xl bg-emerald-950/50 border border-emerald-500/40 text-emerald-300 text-xs font-mono text-center">
+              ✔ Thank you! Your message has been sent successfully. Karthik Krishnan will review it shortly.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side Contact Info -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="glass-card p-6 rounded-3xl space-y-3 bg-gradient-to-br from-indigo-950/40 via-purple-950/20 to-slate-900/60 border-indigo-500/30">
+            <div class="flex items-center gap-3">
+              <span class="relative flex h-3 w-3">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+              </span>
+              <div>
+                <h4 class="text-sm font-bold text-white">Current Availability</h4>
+                <p class="text-xs text-emerald-300 font-mono">Available for High-Impact Projects & Senior Roles</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card p-6 rounded-3xl space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono text-slate-400">Direct Email</span>
+              <button onclick="copyEmail()" id="copyBtn" class="text-xs font-mono px-2.5 py-1 rounded-lg bg-white/[0.06] text-cyan-300 hover:bg-white/[0.1] border border-white/10 transition-all">
+                📋 Copy Address
+              </button>
+            </div>
+            <div class="text-base font-mono font-bold text-white">
+              karthik.krishnan.graphics@gmail.com
+            </div>
+          </div>
+
+          <div class="glass-card p-6 rounded-3xl space-y-2">
+            <div class="text-xs font-mono text-slate-400">Location & Timezone</div>
+            <div class="flex items-center justify-between text-xs">
+              <span class="text-white font-medium">Chennai, Tamil Nadu, India</span>
+              <span class="font-mono text-cyan-300">IST (UTC +5:30)</span>
+            </div>
+          </div>
+
+          <div class="glass-card p-6 rounded-3xl space-y-3">
+            <h4 class="text-xs font-mono uppercase tracking-wider text-slate-400 font-semibold">Social & Professional Profiles</h4>
+            <div class="grid grid-cols-3 gap-2 text-center text-xs">
+              <a href="https://linkedin.com/in/karthik-krishnan-creative" target="_blank" class="p-3 rounded-xl bg-white/[0.03] border border-white/10 hover:bg-[#4F46E5]/20 transition-all">
+                <div class="font-bold text-white">LinkedIn</div>
+                <div class="text-[10px] text-slate-500">Connect</div>
+              </a>
+              <a href="https://github.com/karthik-krishnan-design" target="_blank" class="p-3 rounded-xl bg-white/[0.03] border border-white/10 hover:bg-[#7C3AED]/20 transition-all">
+                <div class="font-bold text-white">GitHub</div>
+                <div class="text-[10px] text-slate-500">Code</div>
+              </a>
+              <a href="https://youtube.com/@karthikkrishnan-creative" target="_blank" class="p-3 rounded-xl bg-white/[0.03] border border-white/10 hover:bg-rose-950/40 transition-all">
+                <div class="font-bold text-white">YouTube</div>
+                <div class="text-[10px] text-slate-500">Creative Media</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. FOOTER -->
+  <footer class="relative border-t border-white/10 bg-[#0B1120] py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center justify-between">
+        <div class="md:col-span-5 space-y-2">
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-[#4F46E5] to-[#06B6D4] flex items-center justify-center font-mono font-bold text-white text-xs">KK</div>
+            <span class="font-bold text-white">Karthik Krishnan</span>
+          </div>
+          <p class="text-xs text-slate-400 max-w-sm">Elite Image Editor, Color Correction Specialist & Creative Designer with 10+ years industry experience.</p>
+        </div>
+        <div class="md:col-span-4 flex flex-wrap gap-4 text-xs font-medium text-slate-400">
+          <a href="#home" class="hover:text-cyan-300">Home</a>
+          <a href="#about" class="hover:text-cyan-300">About</a>
+          <a href="#skills" class="hover:text-cyan-300">Skills</a>
+          <a href="#experience" class="hover:text-cyan-300">Experience</a>
+          <a href="#projects" class="hover:text-cyan-300">Projects</a>
+          <a href="#services" class="hover:text-cyan-300">Services</a>
+          <a href="#contact" class="hover:text-cyan-300">Contact</a>
+        </div>
+        <div class="md:col-span-3 flex md:justify-end">
+          <button onclick="window.scrollTo({top:0, behavior:'smooth'})" class="px-4 py-2 rounded-xl bg-white/[0.04] border border-white/10 hover:bg-white/10 text-xs font-mono text-slate-300 flex items-center gap-2">
+            <span>Back to Top</span> <span>↑</span>
+          </button>
+        </div>
+      </div>
+      <div class="mt-8 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 font-mono gap-2">
+        <div>© 2026 Karthik Krishnan. All rights reserved.</div>
+        <div class="text-cyan-400">Lighthouse 95+ Performance & Awwwards Caliber</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- RESUME MODAL -->
+  <div id="resumeModal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-2xl">
+    <div class="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto rounded-3xl bg-[#0B1120] border border-white/20 p-6 sm:p-10 shadow-2xl space-y-6 text-left">
+      <div class="flex items-center justify-between pb-4 border-b border-white/10">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-[#4F46E5] to-[#06B6D4] flex items-center justify-center font-mono font-bold text-white">KK</div>
+          <div>
+            <h2 class="text-lg font-bold text-white">Curriculum Vitae — Karthik Krishnan</h2>
+            <p class="text-xs text-cyan-300 font-mono">10+ Years Experience in Image Editing & Creative UI</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="window.print()" class="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 border border-white/15 text-xs font-semibold text-white">🖨️ Print / PDF</button>
+          <button onclick="closeResumeModal()" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-white">✕</button>
+        </div>
+      </div>
+
+      <div class="bg-white/[0.02] border border-white/10 rounded-2xl p-6 space-y-6 text-slate-300 text-xs">
+        <div class="border-b border-white/10 pb-4">
+          <h1 class="text-2xl font-extrabold text-white">Karthik Krishnan</h1>
+          <p class="text-cyan-300 font-mono mt-1">Graphics Designer • Photo Editing & Color Correction Specialist • UI Designer</p>
+          <p class="text-slate-400 mt-1 font-mono">Chennai, India • karthik.krishnan.graphics@gmail.com</p>
+        </div>
+
+        <div class="space-y-2">
+          <h3 class="text-xs font-mono uppercase tracking-widest text-[#06B6D4] font-bold">HERO BIO & PROFESSIONAL SUMMARY</h3>
+          <p class="leading-relaxed whitespace-pre-line text-slate-200">Professional Photoshop Image Editor & Color Correction Specialist
+Experienced and detail-oriented image editing professional with strong expertise in Adobe Photoshop, photo retouching, color correction, image enhancement, background removal, masking, clipping paths, and high-quality image manipulation. Skilled in transforming raw images into clean, professional, and visually appealing final images while maintaining natural details and accurate colors.
+Highly focused on precision, consistency, quality, and meeting deadlines, with the ability to follow detailed editing instructions and maintain consistent results across large batches of images. Experienced in working with fashion, product, portrait, e-commerce, and commercial photography.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h3 class="text-xs font-mono uppercase tracking-widest text-[#06B6D4] font-bold">CORE SKILLS</h3>
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 font-mono">
+            <div class="p-2 rounded bg-white/[0.04] border border-white/10">PHOTOSHOP WITH AI</div>
+            <div class="p-2 rounded bg-white/[0.04] border border-white/10">HTML 5</div>
+            <div class="p-2 rounded bg-white/[0.04] border border-white/10">CSS</div>
+            <div class="p-2 rounded bg-white/[0.04] border border-white/10">MS OFFICE</div>
+            <div class="p-2 rounded bg-white/[0.04] border border-white/10">AUDACITY</div>
+            <div class="p-2 rounded bg-white/[0.04] border border-white/10">PHOTOSHOP</div>
+            <div class="p-2 rounded bg-white/[0.04] border border-white/10">ADOBE FLASH</div>
+            <div class="p-2 rounded bg-white/[0.04] border border-white/10">DAVINCI RESOLVE</div>
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          <h3 class="text-xs font-mono uppercase tracking-widest text-[#06B6D4] font-bold">EXPERIENCE</h3>
+          <div class="space-y-1 border-l-2 border-indigo-500/50 pl-3">
+            <div class="text-white font-bold">IMAGE EDITOR — Eshakti.com, Chennai (10+ Years, Team: 10)</div>
+            <p>Enhance raw images in order to make them appealing yet true to the original product the article goes live on website & app. Check lighting of imagery. Check images - ensure that the exact colour of the article type is captured. Fit images within the prescribed gridlines. Check overall image for hygiene factors.</p>
+          </div>
+          <div class="space-y-1 border-l-2 border-purple-500/50 pl-3">
+            <div class="text-white font-bold">E-LEARNING CONTENT DEVELOPER — The Wedding Bunch, Chennai (Team: 12)</div>
+            <p>Color Correction, Images Collage, Layout Creation, Creating Vector Images for digital imaging. Multi-tasking often work on more than one design brief at a time. Using Cascading Style sheet of Adobe Dreamweaver to convert PDF reference contents to HTML version. Analyzing the defects and create monthly report. Producing accurate and high quality work for Virtual Labs, Website Templates design, Logo, Icon, Flash Banner, and HR Presentations.</p>
+          </div>
+          <div class="space-y-1 border-l-2 border-cyan-500/50 pl-3">
+            <div class="text-white font-bold">E-LEARNING CONTENT DEVELOPER — Everonn Education Limited, Chennai 600 096 (Team: 20)</div>
+            <p>Responsible for animation development, audio synchronization, and audio editing across Samacheer, CBSE Board, Maharashtra Board, Andhra Pradesh Board, and Tamil Nadu Board.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-end">
+        <button onclick="closeResumeModal()" class="px-6 py-2.5 rounded-xl bg-gradient-to-r from-[#4F46E5] to-[#7C3AED] text-white text-xs font-semibold">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- INTERACTIVE SCRIPTS -->
+  <script>
+    // Typing Animation Loop
+    const words = [
+      "Adobe Photoshop",
+      "Professional Image Editing",
+      "Color Correction & Color Grading",
+      "Photo Retouching",
+      "Photoshop with AI",
+      "UI & Front End Design"
+    ];
+    let wordIdx = 0, charIdx = 0, isDeleting = false;
+    const typingEl = document.getElementById('typingText');
+
+    function typeLoop() {
+      const current = words[wordIdx];
+      if (!isDeleting) {
+        typingEl.textContent = current.substring(0, charIdx + 1);
+        charIdx++;
+        if (charIdx === current.length) {
+          isDeleting = true;
+          setTimeout(typeLoop, 1800);
+          return;
+        }
+      } else {
+        typingEl.textContent = current.substring(0, charIdx - 1);
+        charIdx--;
+        if (charIdx === 0) {
+          isDeleting = false;
+          wordIdx = (wordIdx + 1) % words.length;
+        }
+      }
+      setTimeout(typeLoop, isDeleting ? 40 : 80);
+    }
+    typeLoop();
+
+    // Canvas Particle System
+    const canvas = document.getElementById('heroCanvas');
+    if (canvas) {
+      const ctx = canvas.getContext('2d');
+      let w = canvas.width = canvas.parentElement.clientWidth;
+      let h = canvas.height = canvas.parentElement.clientHeight;
+      window.addEventListener('resize', () => {
+        w = canvas.width = canvas.parentElement.clientWidth;
+        h = canvas.height = canvas.parentElement.clientHeight;
+      });
+
+      const particles = [];
+      const colors = ['#4F46E5', '#7C3AED', '#06B6D4', '#EC4899'];
+      for (let i = 0; i < 30; i++) {
+        particles.push({
+          x: Math.random() * w,
+          y: Math.random() * h,
+          vx: (Math.random() - 0.5) * 0.6,
+          vy: (Math.random() - 0.5) * 0.6,
+          r: Math.random() * 2 + 1,
+          c: colors[Math.floor(Math.random() * colors.length)]
+        });
+      }
+
+      function animate() {
+        ctx.clearRect(0, 0, w, h);
+        for (let i = 0; i < particles.length; i++) {
+          for (let j = i + 1; j < particles.length; j++) {
+            const dx = particles[i].x - particles[j].x;
+            const dy = particles[i].y - particles[j].y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < 100) {
+              ctx.beginPath();
+              ctx.strokeStyle = `rgba(79, 70, 229, ${0.15 * (1 - dist / 100)})`;
+              ctx.lineWidth = 1;
+              ctx.moveTo(particles[i].x, particles[i].y);
+              ctx.lineTo(particles[j].x, particles[j].y);
+              ctx.stroke();
+            }
+          }
+        }
+        particles.forEach(p => {
+          p.x += p.vx;
+          p.y += p.vy;
+          if (p.x < 0 || p.x > w) p.vx *= -1;
+          if (p.y < 0 || p.y > h) p.vy *= -1;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = p.c;
+          ctx.fill();
+        });
+        requestAnimationFrame(animate);
+      }
+      animate();
+    }
+
+    // Interactive Sliders Drag Logic
+    document.querySelectorAll('.slider-box').forEach(box => {
+      let isDown = false;
+      const clip = box.querySelector('.slider-clip');
+      function move(e) {
+        if (!isDown) return;
+        const rect = box.getBoundingClientRect();
+        const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+        const pos = Math.max(0, Math.min(100, ((clientX - rect.left) / rect.width) * 100));
+        clip.style.width = pos + '%';
+      }
+      box.addEventListener('mousedown', () => isDown = true);
+      box.addEventListener('touchstart', () => isDown = true);
+      window.addEventListener('mouseup', () => isDown = false);
+      window.addEventListener('touchend', () => isDown = false);
+      window.addEventListener('mousemove', move);
+      window.addEventListener('touchmove', move);
+    });
+
+    // Counter Animation
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const target = +el.getAttribute('data-target');
+          let count = 0;
+          const inc = target / 30;
+          const timer = setInterval(() => {
+            count += inc;
+            if (count >= target) {
+              el.textContent = target + (target === 50 ? 'K+' : target === 10 || target === 2 ? '+' : '%');
+              clearInterval(timer);
+            } else {
+              el.textContent = Math.round(count);
+            }
+          }, 40);
+          observer.unobserve(el);
+        }
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('.counter').forEach(c => observer.observe(c));
+
+    // Modal & Actions
+    function openResumeModal() {
+      document.getElementById('resumeModal').classList.remove('hidden');
+    }
+    function closeResumeModal() {
+      document.getElementById('resumeModal').classList.add('hidden');
+    }
+    function toggleMobileMenu() {
+      document.getElementById('mobileDrawer').classList.toggle('hidden');
+    }
+    function copyEmail() {
+      navigator.clipboard.writeText('karthik.krishnan.graphics@gmail.com');
+      const btn = document.getElementById('copyBtn');
+      btn.textContent = '✔ Copied!';
+      setTimeout(() => btn.textContent = '📋 Copy Address', 2500);
+    }
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submitBtn');
+      btn.textContent = 'Transmitting Message...';
+      setTimeout(() => {
+        btn.textContent = 'Send Direct Message';
+        document.getElementById('contactForm').reset();
+        document.getElementById('formSuccess').classList.remove('hidden');
+        setTimeout(() => document.getElementById('formSuccess').classList.add('hidden'), 5000);
+      }, 1000);
+    }
+  </script>
+</body>
+</html>
